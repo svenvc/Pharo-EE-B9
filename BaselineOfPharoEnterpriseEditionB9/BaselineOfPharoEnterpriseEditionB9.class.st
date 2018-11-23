@@ -20,11 +20,11 @@ BaselineOfPharoEnterpriseEditionB9 >> baselineOf: spec [
 			spec baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 			spec baseline: 'ZTimestamp' with: [ spec repository: 'github://svenvc/ztimestamp:master/repository' ].
 			spec baseline: 'NeoConsole' with: [ spec repository: 'github://svenvc/NeoConsole:master/repository' ].
-			spec baseline: 'STON' with: [ spec repository: 'github://svenvc/ston:master/repository' ].
+			spec baseline: 'Ston' with: [ spec repository: 'github://svenvc/ston:master/repository' ].
 			spec baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
-			spec baseline: 'memcached' with: [ spec repository: 'github://svenvc/memcached:master/repository' ].
-			spec baseline: 'stamp' with: [ spec repository: 'github://svenvc/stamp:master/repository' ].
+			spec baseline: 'Memcached' with: [ spec repository: 'github://svenvc/memcached:master/repository' ].
+			spec baseline: 'Stamp' with: [ spec repository: 'github://svenvc/stamp:master/repository' ].
 			spec baseline: 'P3' with: [ spec repository: 'github://svenvc/P3:master/repository' ].
 			spec baseline: 'IPAddressCountry' with: [ spec repository: 'github://svenvc/IPAddressCountry:master/repository' ].
-			spec group: 'default' with: #('NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'STON' 'ZincHTTPComponents' 'memcached' 'stamp' 'P3' 'IPAddressCountry') ]
+			spec group: 'default' with: #('NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'ZincHTTPComponents' 'Memcached' 'Stamp' 'P3' 'IPAddressCountry') ]
 ]

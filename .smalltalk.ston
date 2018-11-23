@@ -2,7 +2,6 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'PharoEnterpriseEditionB9',
-      #directory: 'src',
       #platforms : [ #pharo ]
     }
   ]

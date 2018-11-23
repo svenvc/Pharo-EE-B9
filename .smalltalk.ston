@@ -4,6 +4,5 @@ SmalltalkCISpec {
       #baseline : 'PharoEnterpriseEditionB9',
       #platforms : [ #pharo ]
     }
-  ],
-  #failOnZeroTests : false
+  ]
 }

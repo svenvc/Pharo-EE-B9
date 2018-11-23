@@ -26,5 +26,6 @@ BaselineOfPharoEnterpriseEditionB9 >> baselineOf: spec [
 			spec baseline: 'Stamp' with: [ spec repository: 'github://svenvc/stamp:master/repository' ].
 			spec baseline: 'P3' with: [ spec repository: 'github://svenvc/P3:master/repository' ].
 			spec baseline: 'IPAddressCountry' with: [ spec repository: 'github://svenvc/IPAddressCountry:master/repository' ].
-			spec group: 'default' with: #('NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'ZincHTTPComponents' 'Memcached' 'Stamp' 'P3' 'IPAddressCountry') ]
+			spec package: 'PharoEnterpriseEditionB9'.
+			spec group: 'default' with: #('NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'ZincHTTPComponents' 'Memcached' 'Stamp' 'P3' 'IPAddressCountry' 'PharoEnterpriseEditionB9') ]
 ]

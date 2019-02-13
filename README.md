@@ -19,3 +19,15 @@ The following sub projects are loaded:
 - IPAddressCountry
 - Stamp
 
+## Loading/Dependency
+
+```smalltalk
+Metacello new
+   baseline: 'PharoEnterpriseEditionB9';
+   repository: 'github://svenvc/Pharo-EE-B9';
+   load.
+```
+
+```smalltalk
+spec baseline: 'PharoEnterpriseEditionB9' with: [ spec repository: 'github://svenvc/Pharo-EE-B9' ].
+```

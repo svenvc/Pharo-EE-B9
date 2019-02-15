@@ -21,6 +21,7 @@ BaselineOfPharoEnterpriseEditionB9 >> baselineOf: spec [
 			spec baseline: 'ZTimestamp' with: [ spec repository: 'github://svenvc/ztimestamp:master/repository' ].
 			spec baseline: 'NeoConsole' with: [ spec repository: 'github://svenvc/NeoConsole:master/repository' ].
 			spec baseline: 'Ston' with: [ spec repository: 'github://svenvc/ston:master/repository' ].
+			spec baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ].
 			spec baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
 			spec baseline: 'Memcached' with: [ spec repository: 'github://svenvc/memcached:master/repository' ].
 			spec baseline: 'Stamp' with: [ spec repository: 'github://svenvc/stamp:master/repository' ].
@@ -29,6 +30,6 @@ BaselineOfPharoEnterpriseEditionB9 >> baselineOf: spec [
 			spec baseline: 'IPAddressCountry' with: [ spec repository: 'github://svenvc/IPAddressCountry:master/repository' ].
 			spec package: 'PharoEnterpriseEditionB9'.
 			spec group: 'default' with: #(
-				'NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'ZincHTTPComponents' 'Memcached' 'Stamp' 'P3' 'IPAddressCountry' 'Tabular' 
+				'NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'XMLParser' 'ZincHTTPComponents' 'Memcached' 'Stamp' 'P3' 'IPAddressCountry' 'Tabular' 
 				'PharoEnterpriseEditionB9') ]
 ]

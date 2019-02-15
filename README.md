@@ -11,6 +11,7 @@ The following sub projects are loaded:
 - NeoJSON
 - NeoConsole
 - ZTimestamp
+- XMLParser
 - STON
 - ZincHTTPComponents
 - Memcached

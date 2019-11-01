@@ -9,16 +9,17 @@ The following sub projects are loaded:
 
 - NeoCSV
 - NeoJSON
-- NeoConsole
 - ZTimestamp
-- XMLParser
+- NeoConsole
 - STON
+- XMLParser
 - ZincHTTPComponents
 - Memcached
-- P3
-- Tabular
-- IPAddressCountry
 - Stamp
+- P3
+- IPAddressCountry
+- MQTT
+- Tabular
 
 ## Loading/Dependency
 

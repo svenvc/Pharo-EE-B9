@@ -22,16 +22,17 @@ BaselineOfPharoEnterpriseEditionB9 >> baselineOf: spec [
 			spec baseline: 'NeoConsole' with: [ spec repository: 'github://svenvc/NeoConsole:master/repository' ].
 			spec baseline: 'Ston' with: [ spec repository: 'github://svenvc/ston:master/repository' ].
 			spec baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ].
+			spec baseline: 'XMLWriter' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ].
 			spec baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
 			spec baseline: 'Memcached' with: [ spec repository: 'github://svenvc/memcached:master/repository' ].
 			spec baseline: 'Stamp' with: [ spec repository: 'github://svenvc/stamp:master/repository' ].
 			spec baseline: 'P3' with: [ spec repository: 'github://svenvc/P3:master/repository' ].
 			spec baseline: 'IPAddressCountry' with: [ spec repository: 'github://svenvc/IPAddressCountry:master/repository' ].
 			spec baseline: 'MQTT' with: [ spec repository: 'github://svenvc/mqtt/repository' ].
-			spec baseline: 'Tabular' with: [ spec repository: 'github://VincentBlondeau/Tabular:master/src' ].
+			spec baseline: 'Tabular' with: [ spec repository: 'github://svenvc/Tabular:master/src' ].
 			spec package: 'PharoEnterpriseEditionB9'.
 			spec group: 'default' with: #(
-				'NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'XMLParser' 'ZincHTTPComponents' 
+				'NeoCSV' 'NeoJSON' 'ZTimestamp' 'NeoConsole' 'Ston' 'XMLParser' 'XMLWriter' 'ZincHTTPComponents' 
 				'Memcached' 'Stamp' 'P3' 'IPAddressCountry' 'MQTT' 'Tabular' 
 				'PharoEnterpriseEditionB9') ]
 ]

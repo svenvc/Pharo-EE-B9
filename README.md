@@ -13,6 +13,7 @@ The following sub projects are loaded:
 - NeoConsole
 - STON
 - XMLParser
+- XMLWriter
 - ZincHTTPComponents
 - Memcached
 - Stamp

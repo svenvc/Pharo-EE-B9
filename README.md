@@ -1,7 +1,7 @@
 # Pharo-EE-B9
 Pharo Enterprise Edition β9
 
-[![Build Status](https://travis-ci.org/svenvc/Pharo-EE-B9.svg?branch=master)](https://travis-ci.org/svenvc/Pharo-EE-B9)
+[![CI](https://github.com/svenvc/Pharo-EE-B9V/actions/workflows/CI.yml/badge.svg)](https://github.com/svenvc/Pharo-EE-B9/actions/workflows/CI.yml)
 
 An umbrella project that assembles various subprojects to create a rich development and deployment environment.
 
